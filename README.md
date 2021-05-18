@@ -11,8 +11,8 @@
 <!--ts-->
    * [About Me](#about-me)
    * [Star Map](#star-map)
-        * [Inner Space - Fundamentals](#inner-space)
-            * [Libft](#libft)
+        * [Inner Space - Fundamentals](#inner-space---fundamentals)
+            * [Libft](#project-1---libft)
 <!--te-->
 
 # 🧑‍🚀About Me
