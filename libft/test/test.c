@@ -1,8 +1,5 @@
 #include <stdio.h>
-
-void	ft_putchar_fd(char c, int fd);
-void	ft_putstr_fd(char *s, int fd);
-void	ft_putnbr_fd(int n, int fd);
+#include "../lib/libft.h"
 
 int	 main (void)
 {
@@ -37,6 +34,12 @@ int	 main (void)
 	ft_putnbr_fd(n_int_max, 1);
 	printf("\n");
 	ft_putnbr_fd(n_int_min, 1);
+
+	printf("\n\nTEST -- ft_putendl_fd(char *s, int fd)");
+	printf("\nThis is puts(s) result:\n");
+	printf("%s\n", s);
+	printf("This is ft_putstr_fd(*s, fd):\n");
+	ft_putendl_fd(s, 1);
 
 	return 0;
 }
