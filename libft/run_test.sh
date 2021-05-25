@@ -1,6 +1,6 @@
 #!/bin/bash
 make
 wait -n
-./test_file
+./libft.a
 wait -n
-rm test_file
+rm libft.a

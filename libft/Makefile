@@ -1,7 +1,7 @@
-TARGET=test_file
+NAME=libft.a
 CXX=gcc
 LD=gcc
-WARN=-Wall -Werror -Wextra
-OBJS=test/test.c lib/*.c
-test_file:$(OBJS)
-	$(LD) $(WARN) -o $(TARGET) $(OBJS)
+FLAGS=-Wall -Werror -Wextra
+SRC=test/test.c lib/*.c
+test_file:$(SRC)
+	$(LD) $(WARN) -o $(NAME) $(SRC)

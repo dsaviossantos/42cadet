@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "libft.h"
 
 int	ft_log10(int n)
