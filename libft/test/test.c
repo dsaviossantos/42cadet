@@ -61,9 +61,13 @@ int	 main (void)
 	printf("\nThis is ft_isprint as c = 75 and it should be 1:%d", ft_isprint(75));
 	printf("\nThis is ft_isprint as c = 50 and it should be 1:%d", ft_isprint(50));
 
-
-	
-	ft_toupper (int c)\nft_tolower (int c)");
+/* Follow up in test needed:
+ft_toupper
+ft_tolower
+ft_strlen
+ft_strlcpy
+ft_strlcat
+ */
 
 	return 0;
 }
