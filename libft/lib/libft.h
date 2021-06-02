@@ -1,4 +1,6 @@
 #include <stddef.h>
+#include <stdio.h>
+#include <bsd/string.h>
 #ifndef LIBFT_H
 # define LIBFT_H
 
@@ -37,6 +39,7 @@ void	*ft_memchr (const void *block, int c, size_t size);
 int		ft_memcmp (const void *a1, const void *a2, size_t size);
 char	*ft_strchr (const char *string, int c);
 char	*ft_strrchr (const char *string, int c);
+int		ft_strncmp(const char	*s1, const char	*s2, size_t len);
 int		ft_atoi (const char *string);
 void	*ft_calloc (size_t count, size_t eltsize);
 char	*ft_strdup (const char *s);

@@ -3,9 +3,9 @@
 size_t	ft_strlcat(char *restrict dst,
 			 const char *restrict src, size_t dstsize)
 {
-	int	dst_len;
-	int	src_len;
-	int	offset;
+	int		dst_len;
+	int		src_len;
+	size_t	offset;
 
 	dst_len = ft_strlen(dst);
 	src_len = ft_strlen(src);
@@ -21,5 +21,6 @@ size_t	ft_strlcat(char *restrict dst,
 		offset++;
 		src_len++;
 	}
-	dst[len] = '\0';
+	dst[offset] = '\0';
+	return (offset);
 }
