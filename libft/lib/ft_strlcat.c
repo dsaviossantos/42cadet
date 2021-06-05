@@ -15,7 +15,7 @@ size_t	ft_strlcat(char *restrict dst,
 		if (offset == dstsize)
 		{
 			offset--;
-			break;
+			break ;
 		}
 		dst[offset] = src[src_len];
 		offset++;

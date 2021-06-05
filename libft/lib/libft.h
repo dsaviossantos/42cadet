@@ -1,14 +1,16 @@
-#include <stddef.h>
-#include <stdio.h>
-#include <bsd/string.h>
 #ifndef LIBFT_H
 # define LIBFT_H
 
+# include <stddef.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <bsd/string.h>
+
+/* Need advanced testing */
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putendl_fd(char *s, int fd);
-/* Need testing */
 int		ft_isalpha (int c);
 int		ft_isalnum (int c);
 int		ft_isascii (int c);
@@ -18,12 +20,13 @@ int		ft_tolower (int c);
 size_t	ft_strlen (const char *s);
 size_t	ft_strlcpy(char *restrict dst,
 			 const char *restrict src, size_t dstsize);
+/* Need simple testing */
 size_t	ft_strlcat(char *restrict dst,
 			 const char *restrict src, size_t dstsize);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 
 /*/\/\/\    Done    /\/\/\*/
 /*\/\/\/  Not Done  \/\/\/*/
-char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s1, char const *set);
 char	**ft_split(char const *s, char c);
@@ -55,4 +58,4 @@ void ft_lstclear(t_list **lst, void (*del)(void *));
 void ft_lstiter(t_list *lst, void (*f)(void *));
 t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 */
-#endif
+#endif /*LIBFT_H*/
