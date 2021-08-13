@@ -5,7 +5,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <bsd/string.h>
+# include <string.h> //In MacOS does not need to be <bsd/string.h>, as Linux distros
 # include <limits.h>
 
 typedef struct s_list
