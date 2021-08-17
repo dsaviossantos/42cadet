@@ -1,10 +1,16 @@
-#include "libft.h"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dsavio-d <dsavio-d@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/08/17 09:46:30 by dsavio-d          #+#    #+#             */
+/*   Updated: 2021/08/17 09:46:31 by dsavio-d         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-/*
-** Function:		int ft_lstsize
-**
-** Description:		Counts the number of elements in a list.
-*/
+#include "libft.h"
 
 int	ft_lstsize(t_list *lst)
 {

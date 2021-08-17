@@ -1,3 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: dsavio-d <dsavio-d@student.42sp.org.br>    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2021/08/17 09:20:23 by dsavio-d          #+#    #+#              #
+#    Updated: 2021/08/17 09:20:26 by dsavio-d         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+
 FLAGS = -Wall -Werror -Wextra -I. -c
 
 LIB = ar rcs
@@ -45,7 +58,8 @@ SRC = ft_memset.c \
 	ft_putstr.c \
 	ft_strcmp.c \
 	ft_strcpy.c \
-	ft_strncpy.c
+	ft_strncpy.c \
+	ft_striteri.c
 
 
 SRC_BONUS = ft_lstnew.c \

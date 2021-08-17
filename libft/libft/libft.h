@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: dsavio-d <dsavio-d@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/08/16 20:19:28 by dsavio-d          #+#    #+#             */
+/*   Updated: 2021/08/17 09:43:24 by dsavio-d         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef LIBFT_H
 # define LIBFT_H
 
@@ -5,7 +17,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <string.h> //In MacOS does not need to be <bsd/string.h>, as Linux distros
+# include <string.h>
 # include <limits.h>
 
 typedef struct s_list
@@ -48,7 +60,7 @@ char	*ft_strdup(const char *s);
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int		ft_strncmp(const char	*s1, const char	*s2, size_t len);
-char	*strnstr(const char	*big, const char *little, size_t len);
+char	*ft_strnstr(const char	*big, const char *little, size_t len);
 char	*ft_strrchr(const char *string, int c);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strchr(const char *string, int c);
