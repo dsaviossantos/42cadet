@@ -6,7 +6,7 @@
 /*   By: dsavio-d <dsavio-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 20:19:28 by dsavio-d          #+#    #+#             */
-/*   Updated: 2021/08/17 15:06:04 by dsavio-d         ###   ########.fr       */
+/*   Updated: 2021/08/17 15:40:07 by dsavio-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,9 @@ int		ft_toupper(int c);
 int		ft_tolower(int c);
 size_t	ft_strlen(const char *s);
 size_t	ft_strlcpy(char *restrict dst,
-				 const char *restrict src, size_t dstsize);
+			 const char *restrict src, size_t dstsize);
 size_t	ft_strlcat(char *restrict dst,
-				 const char *restrict src, size_t dstsize);
+			 const char *restrict src, size_t dstsize);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
 int		ft_atoi(const char *string);
@@ -49,7 +49,7 @@ void	ft_bzero(void *block, size_t size);
 void	*ft_calloc(size_t count, size_t eltsize);
 char	*ft_itoa(int n);
 void	*ft_memccpy(void *restrict to,
-				const void *restrict from, int c, size_t size);
+			const void *restrict from, int c, size_t size);
 void	*ft_memchr(const void *block, int c, size_t size);
 int		ft_memcmp(const void *a1, const void *a2, size_t size);
 void	*ft_memcpy(void *restrict to, const void *restrict from, size_t size);
