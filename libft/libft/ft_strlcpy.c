@@ -6,14 +6,13 @@
 /*   By: dsavio-d <dsavio-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/16 20:32:54 by dsavio-d          #+#    #+#             */
-/*   Updated: 2021/08/16 20:32:55 by dsavio-d         ###   ########.fr       */
+/*   Updated: 2021/08/21 14:02:47 by dsavio-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *restrict dst,
-			 const char *restrict src, size_t dstsize)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 
